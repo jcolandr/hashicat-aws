@@ -3,6 +3,12 @@ provider "aws" {
   region  = var.region
 }
 
+
+module "vpc" {
+  source  = "app.terraform.io/jdc-sandbox/vpc/aws"
+  version = "2.25.0"
+}
+
 resource aws_vpc "hashicat" {
   cidr_block           = var.address_space
   enable_dns_hostnames = true
