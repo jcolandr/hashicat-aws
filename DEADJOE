@@ -1,0 +1,12 @@
+
+*** These modified files were found in JOE when it aborted on Tue Mar  3 13:45:14 2020
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/root/hashicat-aws/.git/MERGE_MSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
